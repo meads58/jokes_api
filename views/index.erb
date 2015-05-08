@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+<title>Mr Mule Norris</title>
 </head>
 
 <body>
-  <p class="more_jokes">
-    <a href="/">Give Me More</a>
-  </p>
-  <h1>
+<script src="/js/bootstrap.min.js"></script>
+
+<div class="container">
+  <!-- <div class="more_jokes"> -->
+    <a class="btn-large"href="/"><button type="button" class="btn btn-primary" >Give Me More</button></a>
+
+  </div>
+  <h1 class="more_jokes">
     <%=@name%>
   </h1>
 </body>
