@@ -2,7 +2,7 @@
 display: block;
 width: 115px;
 height: 25px;
-background: #4E9CAF;
+background: #FF00FF;
 padding: 10px;
 text-align: center;
 border-radius: 5px;
@@ -26,5 +26,5 @@ width: 30%;
 }
 
 body {
-    background-color: #B2B26B;
+    background-color: pink;
 }
