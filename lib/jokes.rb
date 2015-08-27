@@ -7,7 +7,7 @@ class Joke_Api < Sinatra::Base
   set :public_folder, Proc.new { File.join(root, '..', "public") }
 
   def get_json
-    json = RestClient.get "http://api.icndb.com/jokes/random?firstName=The%20Mule&amp;lastName=Doe"
+    json = RestClient.get "http://api.icndb.com/jokes/random?firstName=Fuwafuwa&amp&lastName=Miln"
     jhash = JSON.parse(json)
     jhash['value']['joke']
   end
