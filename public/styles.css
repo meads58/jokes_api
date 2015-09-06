@@ -2,6 +2,11 @@ body {
  background-color: black;
 }
 
+.img_small{
+  width: 60px;
+  height: 80px;
+}
+
 #title-tokyo {
   text-align: center;
   font-family: 'Lobster', cursive;
